@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F52C06",
+    "navigationBarTitleText": "你好",
+    "navigationBarTextStyle": "black"
+    
+  },
+  "tabBar": {
+    "backgroundColor": "#97F551",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "zhuye",
+      "iconPath": "images/2.jpg",
+      "selectedIconPath": "images/2.jpg"
+      
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "主页",
+      "iconPath": "images/mianmo.png",
+
+      "selectedIconPath": "images/2.jpg"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "zhuye",
+      "iconPath": "images/mianmo.png",
+      "selectedIconPath": "images/mianmo.png"
+    }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
